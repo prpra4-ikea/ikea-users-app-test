@@ -11,6 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
+npm-debug.log
+core.*
+package-lock.json
 
 # Editor directories and files
 .vscode/*
