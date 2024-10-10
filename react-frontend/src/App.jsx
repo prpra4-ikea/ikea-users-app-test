@@ -3,9 +3,7 @@ import './App.css'
 
 function App() {
   const [users, setUsers] = useState([]);
-  const hostUrl = import.meta.env.PROD
-    ? window.location.href
-    : "http://localhost:8080/";
+  const hostUrl =  "http://localhost:8082/";
 
 const fetchUsers = async () => {
   const response = await fetch(`${hostUrl}api/users`);
