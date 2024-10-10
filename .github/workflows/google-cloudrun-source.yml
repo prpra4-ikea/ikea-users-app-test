@@ -35,7 +35,7 @@ on:
 
 env:
   PROJECT_ID: 'student-001024' # TODO: update to your Google Cloud project ID
-  REGION: 'europe-central2' # TODO: update to your region
+  REGION: 'europe-west4' # TODO: update to your region
   SERVICE: 'ikea-users-app-test' # TODO: update to your service name
 
 jobs:
